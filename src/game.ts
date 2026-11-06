@@ -12,7 +12,8 @@ const HEAT_WARN = 17;
 const HEAT_WAVE = 24;
 const HEAT_FADE = 4;
 const MOVE_TIME = 0.19; // secondes pour traverser une case
-const SAVE_KEY = 'vesper-save-v2';
+// Copie figée de Vesper : sa propre sauvegarde, séparée de celle du dépôt vesper (même site GitHub).
+const SAVE_KEY = 'vesper-app-save-v2';
 
 const DELTA: Record<Dir, [number, number]> = { up: [0, -1], down: [0, 1], left: [-1, 0], right: [1, 0] };
 
